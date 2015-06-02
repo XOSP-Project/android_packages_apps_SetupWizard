@@ -67,11 +67,6 @@ public class CMSetupWizardData extends AbstractSetupData {
         if (SetupWizardUtils.hasGMS(mContext)) {
             pages.add(new GmsAccountPage(mContext, this).setHidden(true));
         }
-        if (!SetupWizardUtils.hasLeanback(mContext) &&
-                SetupWizardUtils.isPackageInstalled(mContext,
-                    mContext.getString(R.string.cm_account_package_name))) {
-            pages.add(new CyanogenServicesPage(mContext, this).setHidden(true));
-        }
         if (SetupWizardUtils.hasFingerprint(mContext) && SetupWizardUtils.isOwner()) {
             pages.add(new FingerprintSetupPage(mContext, this));
         }
@@ -115,11 +110,6 @@ public class CMSetupWizardData extends AbstractSetupData {
                 (GmsAccountPage) getPage(GmsAccountPage.TAG);
         if (gmsAccountPage != null) {
             gmsAccountPage.setHidden(!isConnected && gmsAccountPage.canSkip());
-        }
-        CyanogenServicesPage cyanogenServicesPage =
-                (CyanogenServicesPage) getPage(CyanogenServicesPage.TAG);
-        if (cyanogenServicesPage != null) {
-            cyanogenServicesPage.setHidden(!isConnected);
         }
     }
 
