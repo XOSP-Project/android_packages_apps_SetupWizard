@@ -257,11 +257,11 @@ public class CyanogenSettingsPage extends SetupPage {
             mNavKeysRow.setOnClickListener(mNavKeysClickListener);
             mNavKeys = (CheckBox) mRootView.findViewById(R.id.nav_keys_checkbox);
             boolean needsNavBar = true;
-            try {
+           /* try {
                 IWindowManager windowManager = WindowManagerGlobal.getWindowManagerService();
                 needsNavBar = windowManager.needsNavigationBar();
             } catch (RemoteException e) {
-            }
+            } */
             mHideNavKeysRow = hideKeyDisabler(getActivity());
             if (mHideNavKeysRow || needsNavBar) {
                 mNavKeysRow.setVisibility(View.GONE);
@@ -280,7 +280,6 @@ public class CyanogenSettingsPage extends SetupPage {
         @Override
         public void onResume() {
             super.onResume();
-            updateDisableNavkeysOption();
             updateThemeOption();
         }
 
@@ -299,7 +298,7 @@ public class CyanogenSettingsPage extends SetupPage {
             }
         }
 
-        private void updateDisableNavkeysOption() {
+      /*  private void updateDisableNavkeysOption() {
             if (!mHideNavKeysRow) {
                 final Bundle myPageBundle = mPage.getData();
                 boolean enabled = CMSettings.Secure.getInt(getActivity().getContentResolver(),
@@ -310,7 +309,7 @@ public class CyanogenSettingsPage extends SetupPage {
                 mNavKeys.setChecked(checked);
                 myPageBundle.putBoolean(KEY_ENABLE_NAV_KEYS, checked);
             }
-        }
+        }*/
 
         private static boolean hideKillSwitch() {
             return !SetupWizardUtils.hasKillSwitch();
