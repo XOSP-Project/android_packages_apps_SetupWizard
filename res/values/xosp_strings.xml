@@ -5,8 +5,20 @@
 
     <string name="xosp_community">XOSP Google Plus Community</string>
 
-    <string name="general_explanation" product="tablet">The installation is almost done! So you want to know more about XOSP? Well XOSP basically which stands for Xperia Open Source Project is a project based on CM and the main idea is to create a custom minimal Xperia based ROM, by including the essential things which a user would use from a ROM.If you came here without flashing the XOSPApps reboot in recovery and do it right now cause the apps are essentials to the ROM <xliff:g id="name" example="XOSP Google Plus Community">%s</xliff:g>.</string>
+    <string name="general_explanation" product="tablet">You're almost there my friend! Just some more clicks and you will be able to explore the XOSP ROM on your phone!
+    
+    - Remember if you got some issues or you want to report something you can do it by reorting it in the XDA Thread for your device or on our community: <xliff:g id="name" example="XOSP Google Plus Community">%s</xliff:g>
+    - We're not going to support Xposed Framework. So if you got some issues with your device and you're using Xposed Modules it may not be ROM releated but an Xposed releated, so please uninstall Xposed first and see if it persists. 
+    
+    Enjoy!
+    </string>
 
-    <string name="general_explanation" product="default">The installation is almost done! So you want to know more about XOSP? Well XOSP basically which stands for Xperia Open Source Project is a project based on CM and the main idea is to create a custom minimal Xperia based ROM, by including the essential things which a user would use from a ROM.If you came here without flashing the XOSPApps reboot in recovery and do it right now cause the apps are essentials to the ROM <xliff:g id="name" example="XOSP Google Plus Community">%s</xliff:g>.</string>
+    <string name="general_explanation" product="default">You're almost there my friend! Just some more clicks and you will be able to explore the XOSP ROM on your phone!
+    
+    - Remember if you got some issues or you want to report something you can do it by reorting it in the XDA Thread for your device or on our community: <xliff:g id="name" example="XOSP Google Plus Community">%s</xliff:g>
+    - We're not going to support Xposed Framework. So if you got some issues with your device and you're using Xposed Modules it may not be ROM releated but an Xposed releated, so please uninstall Xposed first and see if it persists. 
+    
+    Enjoy!
+    </string>
 
 </resources>
