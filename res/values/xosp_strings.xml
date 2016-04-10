@@ -5,18 +5,18 @@
 
     <string name="xosp_community">XOSP Google Plus Community</string>
 
-    <string name="general_explanation" product="tablet">You're almost there my friend! Just some more clicks and you will be able to explore the XOSP ROM on your phone!
+    <string name="general_explanation" product="tablet">You are almost there my friend! Just some more clicks and you will be able to explore the XOSP ROM on your phone!
     
     - Remember if you got some issues or you want to report something you can do it by reorting it in the XDA Thread for your device or on our community: <xliff:g id="name" example="XOSP Google Plus Community">%s</xliff:g>
-    - We're not going to support Xposed Framework. So if you got some issues with your device and you're using Xposed Modules it may not be ROM releated but an Xposed releated, so please uninstall Xposed first and see if it persists. 
+    - We are not going to support Xposed Framework. So if you got some issues with your device and you are using Xposed Modules it may not be ROM releated but an Xposed releated, so please uninstall Xposed first and see if it persists. 
     
     Enjoy!
     </string>
 
-    <string name="general_explanation" product="default">You're almost there my friend! Just some more clicks and you will be able to explore the XOSP ROM on your phone!
+    <string name="general_explanation" product="default">You are almost there my friend! Just some more clicks and you will be able to explore the XOSP ROM on your phone!
     
     - Remember if you got some issues or you want to report something you can do it by reorting it in the XDA Thread for your device or on our community: <xliff:g id="name" example="XOSP Google Plus Community">%s</xliff:g>
-    - We're not going to support Xposed Framework. So if you got some issues with your device and you're using Xposed Modules it may not be ROM releated but an Xposed releated, so please uninstall Xposed first and see if it persists. 
+    - We are not going to support Xposed Framework. So if you got some issues with your device and you are using Xposed Modules it may not be ROM releated but an Xposed releated, so please uninstall Xposed first and see if it persists. 
     
     Enjoy!
     </string>
